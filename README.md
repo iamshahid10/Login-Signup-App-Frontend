@@ -12,13 +12,20 @@ Before you begin, ensure you have met the following requirements:
 To start the project, follow these steps:
 
 1 Navigate to the project directory:
-cd <project-directory>
+* cd project-directory
 
 2 Install the dependencies:
-npm install
+* npm install
 
-3 Start the project:
-npm start
+3 Environment Variables:
+* Make sure to create a .env file in the root of your project with the following content:
+
+* REACT_APP_BASE_URL=
+
+* REACT_APP_BASE_URL: The base URL of your backend API.
+
+4 Start the project:
+* npm start
 
 
 This will start the development server and open the application in your default web browser.
@@ -29,6 +36,6 @@ This will start the development server and open the application in your default 
 * App.js: Main application component.
 
 # Contact
-Feel free to contact me.
-Phone no - 8223824412
-Email - mdshahid23456789@gmail.com
+* Feel free to contact me.
+* Phone no - 8223824412
+* Email - mdshahid23456789@gmail.com
